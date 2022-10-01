@@ -1,0 +1,1012 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../rsc/img/brickwallWhite.png);
+}
+
+header {
+    background-image: url(../rsc/img/brickwall.png);
+}
+
+footer {
+    background-image: url(../rsc/img/brickwall.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0 0 1rem;
+    padding: 1rem;
+    color: rgb(77, 45, 117);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+#tittleIndex {
+    color: orange;
+    animation: inclineText;
+    animation-duration: 3s;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(77, 45, 117);
+    font-weight: bolder
+}
+
+.animationTittle {
+    animation: inclineText;
+    animation-duration: 3s;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+.buttonContact {
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgba(77, 45, 117, 0.801);
+    margin: 1rem;
+    padding: 1.5rem;
+    color: white;
+    border-radius: 2.5rem;
+    border-color: transparent;
+
+    &:hover {
+        background-color: rgba(249, 49, 149, 0.35);
+        color: black;
+    }
+}
+
+.menu {
+    padding: 2rem;
+}
+
+.hamburguer {
+    background-image: url(../rsc/img/manchaMenu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
+.orgNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.styleToggler {
+    width: 8rem;
+    height: 8rem;
+    margin-right: 3rem;
+    border-radius: 5rem;
+}
+
+.button1 {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: white;
+    max-width: 25rem;
+    max-height: 25rem;
+    padding: 1rem;
+
+    &:hover {
+        color: gold;
+        transform: scale(1.25);
+        background-image: url(../rsc/img/ManchaNavbar.png);
+        background-position: center;
+        background-size: 60%;
+        background-repeat: no-repeat;
+    }
+}
+
+.señalador {
+    width: 2.5rem;
+    filter: hue-rotate(95deg);
+    margin: 6%;
+    animation: changeColor 7s infinite;
+}
+
+.imgInicio {
+    width: 65rem;
+    padding: 1.5rem;
+}
+
+.imgWidth {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 2.5rem;
+}
+
+.dimensionesVideos {
+    width: 100%;
+    border-radius: 2.5rem;
+    display: flex;
+    align-content: center;
+    padding: 1rem;
+}
+
+.mainVideo {
+    border-radius: 2.5rem;
+    display: flex;
+    align-content: center;
+}
+
+.nombresPropios {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 2rem;
+    color: turquoise;
+}
+
+.imagenesPersonajes {
+    margin: 3rem;
+}
+
+.styleList {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-left: 4rem;
+}
+
+.distanceButton {
+    margin: 0 2%;
+}
+
+.buttonCarrouselLeft {
+    width: 25%;
+    height: 10%;
+    background-image: url(../rsc/img/squidLeft.png);
+    background-size: contain;
+    animation: changeColor 10s infinite;
+}
+
+.buttonCarrouselRight {
+    width: 25%;
+    height: 10%;
+    background-image: url(../rsc/img/squidRight.png);
+    background-size: contain;
+    animation: changeColor 10s infinite;
+}
+
+.borderSection {
+    margin: 1rem;
+    padding: 1rem 0.5rem;
+}
+
+.orgActive {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.orgPersonajes {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.orgHistoria {
+    display: flex;
+    flex-direction: column;
+}
+
+.textosPersonajes {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.orgFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orgCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.centrarText {
+    text-align: center;
+}
+
+.orgMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.backgroundMode {
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.orgMensaje{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    & p{
+        margin: 0.5rem;
+    }
+}
+
+input {
+    margin: 0 1rem;
+}
+
+legend {
+    font-variant: small-caps;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.marginRespect {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.orangePersonal {
+    border-radius: 1rem;
+    background-color: rgba(250, 90, 0, 0.35);
+}
+
+.bluePersonal {
+    border-radius: 1rem;
+    background-color: rgba(40, 81, 246, 0.35);
+}
+
+.pinkPersonal {
+    border-radius: 1rem;
+    background-color: rgba(249, 49, 149, 0.35);
+}
+
+.aquamarinePersonal {
+    border-radius: 1rem;
+    background-color: rgba(0, 200, 180, 0.35);
+}
+
+.yellowgreenPersonal {
+    border-radius: 1rem;
+    background-color: rgba(160, 204, 10, 0.35);
+}
+
+.orgUpIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.OrgManchaYTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mancha {
+    background-image: url(../rsc/img/manchanaranja.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: inclineText;
+    animation-duration: 3s;
+
+    & h2 {
+        color: white;
+        font-size: 1.3rem;
+        margin-right: 2.7rem;
+    }
+}
+
+.gridPadre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "imagenUno imagenDos imagenTres"
+        "imagenCuatro imagenCinco imagenSeis"
+        "imagenSiete imagenOcho imagenNueve";
+}
+
+.imagenGaleria {
+    width: 99%;
+    height: 99%;
+    filter: grayscale(80%);
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 2.5rem;
+
+    &:hover {
+        filter: grayscale(0%);
+        transform: scale(1.10);
+        z-index: 1;
+    }
+}
+
+.imagenUno {
+    grid-area: imagenUno;
+}
+
+.imagenDos {
+    grid-area: imagenDos;
+}
+
+.imagenTres {
+    grid-area: imagenTres;
+}
+
+.imagenCuatro {
+    grid-area: imagenCuatro;
+}
+
+.imagenCinco {
+    grid-area: imagenCinco;
+}
+
+.imagenSeis {
+    grid-area: imagenSeis;
+}
+
+.cards {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.cards__body {
+    margin: 2% 4%;
+    min-width: 25rem;
+    max-width: 25rem;
+    min-height: 30rem;
+    box-sizing: border-box;
+}
+
+.flipCard {
+    background-color: transparent;
+    height: 35rem;
+    border: 0px;
+    perspective: 300rem;
+}
+
+
+.flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.flipCard:hover .flipCardInner {
+    transform: rotateY(180deg);
+}
+
+.flipCardFront,
+.flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 1.2rem;
+    max-width: 25rem;
+    max-height: 30rem;
+    border-width: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flipCardFront {
+    border-style: inset;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.flipCardBack {
+    color: white;
+    transform: rotateY(180deg);
+    border-style: outset;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.cards__image {
+    width: 95%;
+    height: 80%;
+}
+
+.cards__tittle {
+    color: rgb(77, 45, 117);
+    font-size: 2rem;
+    font-style: oblique;
+}
+
+.cards__name {
+    color: rgb(77, 45, 117);
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+.errorBody {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    & .error404 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../rsc/img/manchaError.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: center;
+        width: 80rem;
+        height: 80rem;
+        padding: 5rem 0 0 0;
+
+        & p {
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 400;
+            line-height: auto;
+            color: floralwhite;
+            font-size: 3rem;
+            text-align: center;
+            text-indent: 0.5rem;
+            padding: 0 3rem 0 0;
+        }
+    }
+}
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: 5em/$i;
+    }
+}
+
+@each $icono in Twitter,
+Instagram,
+Youtube {
+    .icono#{$icono} {
+        background-image:url(../rsc/img/Icono#{$icono}.png);
+        background-size: 100%;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0 2rem 0 2rem;
+    }
+}
+
+$colours: (Uno:rgba(224, 54, 153, 0.4), Dos: rgba(58, 189, 199, 0.5), Tres:rgba(71, 192, 77, 0.5), Cuatro:rgba(235, 77, 77, 0.35), Cinco:rgba(233, 230, 20, 0.4), Seis:rgba(158, 230, 76, 0.5), Siete: rgba(250, 127, 12, 0.5), Ocho: rgba(136, 42, 190, 0.404));
+
+@each $nameColor,
+$colorFilter in $colours {
+    .fondoCarta#{$nameColor} {
+        background-color: $colorFilter;
+        border-color: $colorFilter;
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(180deg);
+    }
+
+    100% {
+        filter: hue-rotate(0deg);
+    }
+}
+
+@keyframes inclineText {
+    0% {
+        //transform: translate3d(42px, -62px, -135px);
+        opacity: 0%;
+        transform: rotateY(45deg);
+        //transform: skew(45deg);
+    }
+
+    100% {
+        //transform: translate3d(0);
+        opacity: 100%;
+        transform: rotateY(0deg);
+        //transform: skew(0deg);
+    }
+}
+
+.lightbox {
+    display: none;
+
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    padding: 1em;
+
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox:target {
+    display: block;
+}
+
+.lightbox span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 319px) {
+
+    p {
+        text-align: left;
+    }
+
+    .orgUpIndex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mainVideo {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .imgInicio {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .imgCarrusel {
+        border-radius: 2.5rem;
+        width: 75%;
+        margin-left: 9.5%;
+    }
+
+    .imagenesPersonajes {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .buttonCarrouselLeft {
+        width: 15rem;
+        height: 3rem;
+        padding: 1rem;
+    }
+
+    .buttonCarrouselRight {
+        width: 15rem;
+        height: 3rem;
+        padding: 1rem;
+    }
+
+    .backgroundMode {
+        width: 85%;
+        margin: 0.2rem;
+    }
+
+    #galeria {
+        margin: 1rem;
+    }
+
+    .gridPadre {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "imagenUno"
+            "imagenDos"
+            "imagenTres"
+            "imagenCuatro"
+            "imagenCinco"
+            "imagenSeis"
+            "imagenSiete"
+            "imagenOcho"
+            "imagenNueve";
+    }
+
+    .lightbox span {
+        background-size: 100%;
+    }
+
+    fieldset {
+        padding: 1rem;
+        margin: 0.2rem 0.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formStyleSplat {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0.2rem;
+    }
+
+    .formStyleSplat {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0.2rem;
+    }
+
+    .orgButtonsForm {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .errorBody {
+        .error404 {
+            & p {
+                width: 18rem;
+                font-size: 1.8rem;
+            }
+
+            & a {
+                margin: 0;
+            }
+        }
+    }
+
+    .copyright {
+        padding: 1rem 5rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+
+    p {
+        text-align: left;
+    }
+
+    .orgUpIndex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mainVideo {
+        width: 90%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .imgInicio {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .imgCarrusel {
+        border-radius: 2.5rem;
+        width: 75%;
+        margin-left: 9.5%;
+    }
+
+    .imagenesPersonajes {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .buttonCarrouselLeft {
+        width: 15rem;
+        height: 3rem;
+        padding: 1rem;
+    }
+
+    .buttonCarrouselRight {
+        width: 15rem;
+        height: 3rem;
+        padding: 1rem;
+    }
+
+    .backgroundMode {
+        width: 85%;
+    }
+
+    #galeria {
+        margin: 1rem;
+    }
+
+    .gridPadre {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "imagenUno"
+            "imagenDos"
+            "imagenTres"
+            "imagenCuatro"
+            "imagenCinco"
+            "imagenSeis"
+            "imagenSiete"
+            "imagenOcho"
+            "imagenNueve";
+    }
+
+    .lightbox span {
+        background-size: 100%;
+    }
+
+    fieldset {
+        padding: 1rem;
+        margin: 0.2rem 0.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formStyleSplat {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0.2rem;
+    }
+
+    .formStyleSplat {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0.2rem;
+    }
+
+    .orgButtonsForm {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .errorBody {
+        .error404 {
+            & p {
+                width: 18rem;
+                font-size: 1.8rem;
+            }
+
+            & a {
+                margin: 0;
+            }
+        }
+    }
+
+    .copyright {
+        padding: 1rem 5rem;
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 400px) {
+
+        .mainVideo {
+            width: 87%;
+        }
+
+        .imgInicio {
+            width: 30rem;
+            height: 30rem;
+        }
+
+        .imagenesPersonajes {
+            width: 20rem;
+            height: 20rem;
+        }
+
+        .imgCarrusel {
+            margin-left: 10.5%;
+        }
+
+        .buttonCarrouselLeft {
+            height: 5rem;
+        }
+
+        .buttonCarrouselRight {
+            height: 5rem;
+        }
+
+        .orgBloqContact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        fieldset {
+            padding: 2rem;
+            margin: 1rem 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .formStyleSplat {
+            display: flex;
+            flex-direction: column;
+            padding: 0 5rem;
+        }
+    }
+
+    @media only screen and (min-width: 550px) {
+        .imgInicio {
+            width: 40rem;
+            height: 40rem;
+        }
+
+        .imagenesPersonajes {
+            width: 30rem;
+            height: 30rem;
+        }
+
+        .orgButtonsForm {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .errorBody {
+            .error404 {
+                & p {
+                    width: 30rem;
+                    font-size: 3rem;
+                    line-height: normal;
+                }
+            }
+        }
+
+    }
+
+    @media only screen and (max-width: 835px) {
+
+        .button1 {
+            display: flex;
+            align-content: space-around;
+            justify-content: center;
+
+            &:visited {
+                color: white;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 835px) {
+
+        .mainVideo {
+            width: 43%;
+        }
+
+        .orgUpIndex {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .OrgManchaYTitulo {
+            padding-right: 3rem;
+        }
+
+        #galeria {
+            margin: 4rem;
+        }
+
+        .errorBody {
+            .error404 {
+                & p {
+                    width: 50rem;
+                    font-size: 4rem;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1000px) {
+
+        .backgroundMode {
+            width: 45%;
+            flex-wrap: wrap;
+        }
+
+        .imgCarrusel {
+            border-radius: 2.5rem;
+            width: 60%;
+            margin-left: 19%;
+        }
+
+        .buttonCarrouselLeft {
+            height: 7rem;
+        }
+
+        .buttonCarrouselRight {
+            height: 7rem;
+        }
+
+        .gridPadre {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto auto;
+            grid-template-areas:
+                "imagenUno imagenDos imagenTres"
+                "imagenCuatro imagenCinco imagenSeis"
+                "imagenSiete imagenOcho imagenNueve";
+        }
+
+        .lightbox span {
+            background-size: 80%;
+        }
+    }
+
+    @media only screen and (min-width: 1233px) {
+        .orgUpIndex {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
